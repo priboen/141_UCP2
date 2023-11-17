@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Exercise Part Dua</string>
+    <string name="app_title">Form Pengajuan Skripsi</string>
+
+    <string name="btn_next">Next</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_back">Back</string>
+
+    <string name="namaMhs">Nama Mahasiswa</string>
+    <string name="nimMhs">NIM</string>
+    <string name="konsenMhs">Konsentrasi</string>
+    <string name="skripsiMhs">Judul Skripsi</string>
+
+    <string name="title_dosen1">Dosen Pembimbing 1</string>
+    <string name="title_dosen2">Dosen Pembimbing 2</string>
+    <string name="dospem_1">Haris Setiawan</string>
+    <string name="dospem_2">Cahya Damarjati</string>
+    <string name="dospem_3">Aprilia Kurnianti</string>
+
+</resources>

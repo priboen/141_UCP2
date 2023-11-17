@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Button
@@ -24,13 +25,14 @@ fun HomePage(
 ){
     val logoScreen = painterResource(id = R.drawable.logo)
     Column(
-        modifier = Modifier.padding(12.dp),
-        verticalArrangement = Arrangement.SpaceBetween,
+        modifier = Modifier.padding(12.dp)
+            .fillMaxSize(),
+        verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Image(painter = logoScreen, contentDescription = null, contentScale = ContentScale.FillHeight)
         Spacer(modifier = Modifier.padding(35.dp))
-        Button(onClick = {onNextClickedButton}) {
+        Button(onClick = onNextClickedButton) {
             Text(stringResource(id = R.string.btn_next))
         }
     }
